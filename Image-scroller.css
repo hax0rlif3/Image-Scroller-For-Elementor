@@ -1,0 +1,23 @@
+/* Container for scroll effect */
+
+.scroll-container {
+  overflow: hidden;
+  height: 600px; /* Adjust this to fit the visible section of your image */
+
+}
+
+/* Style for the image */
+
+#scrollcod2 img {
+  transition: transform 10s ease;
+  width: 100%;
+  display: block;
+  height: auto;
+  
+}
+
+/* Hover effect to scroll the image */
+
+#scrollcod2:hover img {
+  transform: translateY(-56%);
+}
